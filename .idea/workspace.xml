@@ -4,11 +4,127 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aafc241-ce6e-4a9e-8885-6add489ec706" name="Changes" comment="" />
+    <list default="true" id="5aafc241-ce6e-4a9e-8885-6add489ec706" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarCorreoCuentaClienteUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteFrecuenteUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteVipUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarPasswordCuentaClienteUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/CreateClienteFrecuenteUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/CreateClienteVIPUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/CrearProductoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarCategoriaProductoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarDescripcionDetalleUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarNombreProductoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarPrecioUnitarioProductoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarUrlLogoDetalleProductoUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarCorreoCuentaClienteCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteFrecuenteUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteVipUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarPasswordCuentaClienteCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/CreateClienteFrecuenteUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/CreateClienteVIPUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/CrearProductoUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarCategoriaProductoUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarDescripcionDetalleProductoUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarNombreProductoUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarPrecioUnitarioProductoUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarUrlLogoDetalleProductoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/ClienteChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/ClienteFrecuente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/ClienteVIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/CrearClienteFrecuenteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/CrearClienteVIPCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarCorreoCuentaCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarNombreClienteFrecuenteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarNombreClienteVIPCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarPasswordCuentaCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/ClienteFrecuenteCreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/ClienteVIPCreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/CorreoCuentaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/NombreClienteFrecuenteEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/NombreClienteVIPEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/PasswordCuentaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/ClienteFrecuenteId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/ClienteId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/ClienteVIPId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/CuentaId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/values/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/values/Password.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/Nombre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/NumeroDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/TipoDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Detalle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/ProductoChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Proveedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/CrearProductoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/EditarCategoriaProductoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/EditarDescripcionDetalleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/EditarPrecioUnitarioProductoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/CategoriaProductoEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/DescripcionDetalleEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/FechaCategoriaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/MarcaProductoActualizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/NombreProductoActualizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/PrecioUnitarioProductoActualizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/ProductoCreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/UrlLogoDetalleEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/CategoriaId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/DetalleId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/ProductoId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/ProveedorId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/Descripcion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/FechaIngreso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/Marca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/PrecioUnitario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/UrlLogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/Caja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/Venta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/VentaChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/CajaEditada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/DireccionCajaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/FechaFacturaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/NombreCajaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/NombreVendedorCambiado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/NumeroCajaEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/ProductoIdAgregado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/VendedorEditado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/VentaCreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/CajaId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/FacturaId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/VendedorId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/VentaId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/CodigoFactura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/Direccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/NumeroCaja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/Precio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b11330a6810846535e4b5ba2024ccfcee112862" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4ebdfff43bfaf86e620b416afb4835b5f67b594" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,13 +138,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/Emanuel Vallejo/Documents/Fuentes/Trainnig/petProject"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="co.com.sofka.retoFinal.cliente.events" />
+      <recent name="co.com.sofka.retoFinal.cliente" />
+      <recent name="co.com.sofka.retoFinal.producto.events" />
+      <recent name="co.com.sofka.retoFinal.producto" />
+      <recent name="co.com.sofka.retoFinal.venta.events" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="co.com.sofka.retoFinal.producto" />
+      <recent name="co.com.sofka.retoFinal.cliente" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.com.sofka.retoFinal.producto" />
+      <recent name="co.com.sofka.retoFinal.cliente" />
+      <recent name="co.com.sofka.retoFinal.cliente.commands" />
+      <recent name="co.com.sofka.retoFinal.venta.events" />
+      <recent name="co.com.sofka.retoFinal.venta.values" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in business">
+    <configuration name="All in business" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditarDescripcionDetalleProductoUseCaseTest.editarDescripcionDetalleProductoUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.retoFinal.producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.retoFinal.producto" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.retoFinal.producto.EditarDescripcionDetalleProductoUseCaseTest" />
+      <option name="METHOD_NAME" value="editarDescripcionDetalleProductoUseCaseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditarNombreProductoUseCaseTest.editarNombreProductoUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.retoFinal.producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.retoFinal.producto" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.retoFinal.producto.EditarNombreProductoUseCaseTest" />
+      <option name="METHOD_NAME" value="editarNombreProductoUseCaseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditarUrlLogoDetalleProductoUseCaseTest.editarUrlLogoDetalleProductoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.retoFinal.producto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.retoFinal.producto" />
+      <option name="MAIN_CLASS_NAME" value="co.com.sofka.retoFinal.producto.EditarUrlLogoDetalleProductoUseCaseTest" />
+      <option name="METHOD_NAME" value="editarUrlLogoDetalleProductoTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="co.com.sofka.retoFinal in business" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.sofka.retoFinal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.sofka.retoFinal" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in business" />
+        <item itemvalue="JUnit.co.com.sofka.retoFinal in business" />
+        <item itemvalue="JUnit.EditarUrlLogoDetalleProductoUseCaseTest.editarUrlLogoDetalleProductoTest" />
+        <item itemvalue="JUnit.EditarNombreProductoUseCaseTest.editarNombreProductoUseCaseTest" />
+        <item itemvalue="JUnit.EditarDescripcionDetalleProductoUseCaseTest.editarDescripcionDetalleProductoUseCaseTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +263,54 @@
       <updated>1655521038098</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteVipUseCase.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Producto.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/CategoriaProductoEditado.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/ProductoChange.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Reto_Final$CreateClienteVIPUseCaseTest_createClienteVIPUseCaseTest.ic" NAME="CreateClienteVIPUseCaseTest.createClienteVIPUseCaseTest Coverage Results" MODIFIED="1655617048348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.cliente.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Reto_Final$co_com_sofka_retoFinal_in_business.ic" NAME="co.com.sofka.retoFinal in business Coverage Results" MODIFIED="1655625671609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Reto_Final$ActualizarNombreClienteVipUseCaseTest.ic" NAME="ActualizarNombreClienteVipUseCaseTest Coverage Results" MODIFIED="1655616733889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.cliente.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Reto_Final$EditarUrlLogoDetalleProductoUseCaseTest_editarUrlLogoDetalleProductoTest.ic" NAME="EditarUrlLogoDetalleProductoUseCaseTest.editarUrlLogoDetalleProductoTest Coverage Results" MODIFIED="1655625457175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.producto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Reto_Final$CreateClienteFrecuenteUseCaseTest.ic" NAME="CreateClienteFrecuenteUseCaseTest Coverage Results" MODIFIED="1655616670299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.cliente.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Reto_Final$ActualizarPasswordCuentaClienteCaseTest_actualizarCorreoCuentaClienteUseCase.ic" NAME="ActualizarPasswordCuentaClienteCaseTest.actualizarCorreoCuentaClienteUseCase Coverage Results" MODIFIED="1655618712526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.cliente.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Reto_Final$co_com_sofka_retoFinal_cliente_in_business.ic" NAME="co.com.sofka.retoFinal.cliente in business Coverage Results" MODIFIED="1655618794057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>co.com.sofka.retoFinal.cliente.*</FILTER>
+    </SUITE>
   </component>
 </project>
