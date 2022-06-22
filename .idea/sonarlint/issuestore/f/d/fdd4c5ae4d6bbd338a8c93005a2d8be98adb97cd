@@ -1,0 +1,9 @@
+
+b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(™ãûÿÿÿÿ8ÜüòĞ—0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€õ–Ä
+M
+java:S1948"+Make "proveedor" transient or serializable.(“å—”úÿÿÿÿ8Ğ±àÔ—0
+M
+java:S1948"+Make "categoria" transient or serializable.(ó¤„Áşÿÿÿÿ8Ğ±àÔ—0
+F
+java:S1948")Make "detalle" transient or serializable.(ç‹ƒš8Ğ±àÔ—0

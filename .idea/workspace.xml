@@ -5,113 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aafc241-ce6e-4a9e-8885-6add489ec706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarCorreoCuentaClienteUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteFrecuenteUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteVipUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/ActualizarPasswordCuentaClienteUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/CreateClienteFrecuenteUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/cliente/CreateClienteVIPUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/CrearProductoUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarCategoriaProductoUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarDescripcionDetalleUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarNombreProductoUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarPrecioUnitarioProductoUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/main/java/co/com/sofka/retoFinal/producto/EditarUrlLogoDetalleProductoUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarCorreoCuentaClienteCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteFrecuenteUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarNombreClienteVipUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/ActualizarPasswordCuentaClienteCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/CreateClienteFrecuenteUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/cliente/CreateClienteVIPUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/CrearProductoUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarCategoriaProductoUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarDescripcionDetalleProductoUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarNombreProductoUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarPrecioUnitarioProductoUseCaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/business/src/test/java/co/com/sofka/retoFinal/producto/EditarUrlLogoDetalleProductoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/ClienteChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/ClienteFrecuente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/ClienteVIP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/CrearClienteFrecuenteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/CrearClienteVIPCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarCorreoCuentaCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarNombreClienteFrecuenteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarNombreClienteVIPCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/commands/EditarPasswordCuentaCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/ClienteFrecuenteCreado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/ClienteVIPCreado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/CorreoCuentaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/NombreClienteFrecuenteEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/NombreClienteVIPEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/events/PasswordCuentaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/ClienteFrecuenteId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/ClienteId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/ClienteVIPId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/identies/CuentaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/values/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/cliente/values/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/Fecha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/Nombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/NumeroDocumento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/generic/values/TipoDocumento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Detalle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/ProductoChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/Proveedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/CrearProductoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/EditarCategoriaProductoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/EditarDescripcionDetalleCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/commands/EditarPrecioUnitarioProductoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/CategoriaProductoEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/DescripcionDetalleEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/FechaCategoriaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/MarcaProductoActualizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/NombreProductoActualizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/PrecioUnitarioProductoActualizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/ProductoCreado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/events/UrlLogoDetalleEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/CategoriaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/DetalleId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/ProductoId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/identities/ProveedorId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/Descripcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/FechaIngreso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/Marca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/PrecioUnitario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/producto/values/UrlLogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/Caja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/Venta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/VentaChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/CajaEditada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/DireccionCajaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/FechaFacturaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/NombreCajaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/NombreVendedorCambiado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/NumeroCajaEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/ProductoIdAgregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/VendedorEditado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/events/VentaCreado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/CajaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/FacturaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/VendedorId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/identities/VentaId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/CodigoFactura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/Direccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/NumeroCaja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/values/Precio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/co/com/sofka/retoFinal/venta/vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b11330a6810846535e4b5ba2024ccfcee112862" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4ebdfff43bfaf86e620b416afb4835b5f67b594" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +41,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/Emanuel Vallejo/Documents/Fuentes/Trainnig/petProject"
+    "last_opened_file_path": "C:/Users/Emanuel Vallejo/Documents/Fuentes/Trainnig/Reto-Final"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -291,6 +186,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Reto_Final$All_in_business.ic" NAME="All in business Coverage Results" MODIFIED="1655628898204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Reto_Final$CreateClienteVIPUseCaseTest_createClienteVIPUseCaseTest.ic" NAME="CreateClienteVIPUseCaseTest.createClienteVIPUseCaseTest Coverage Results" MODIFIED="1655617048348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>co.com.sofka.retoFinal.cliente.*</FILTER>
     </SUITE>
